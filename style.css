@@ -1,0 +1,165 @@
+header{
+    background-color: grey;
+}
+
+header  nav ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px;     
+}
+
+
+header ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.photo{
+    width: 20%;
+    margin-top: 0;
+}
+
+.resp{
+    width: 100%;
+    height: auto;
+}
+
+.fond{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/muse_fond.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.imgLive{
+    width: 45%;
+    margin-right: 50px;
+}
+
+main > section{
+    width: 90%;
+    margin: auto;
+}
+
+main > section article{
+    display: flex;
+}
+
+main > section p{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.galerie{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main section:nth-of-type(2){
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/ecran.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#news{
+    margin: 50px 110px;
+}
+
+.new{
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+}
+
+.input{
+    padding: 20px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: fuchsia;
+    color: aqua;
+}
+
+.row1, .row2{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.alb{
+    width: 25%;
+}
+
+.row2{
+    margin-top: 20px;
+}
+
+#disco{
+    text-align: center;
+}
+
+.row1 p{
+    width: 25%;
+}
+ .row1>.photo{
+     width: 50%;
+ }
+
+.row1 p:last-of-type{
+    text-align: right;
+}
+
+.row2 > p{
+    text-align: center;
+    padding: 20px;
+}
+
+.row2 .photo{
+    width: 30%;
+}
+
+footer{
+    background-color: grey;
+    margin-top: 20px;
+}
+
+footer section{
+    width: 80%;
+    margin: auto;
+}
+
+.foot, .reseaux{
+    width: 25%;
+}
+
+span{
+    width: 10%;
+}
+
+footer > section > nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section nav ul li{
+    display: flex;
+    justify-content: space-around;
+}
+
+.che{
+    font-size: 80px;
+    transform: rotate(-90deg);
+}
+.pad{
+    padding-top: 50px;
+}
